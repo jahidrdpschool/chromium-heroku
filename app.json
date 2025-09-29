@@ -9,9 +9,13 @@
    ],
    "stack":"container",
    "env":{
-      "VNC_TITLE":{
-         "description":"VNC Session Title, w/o spaces.",
-         "value":"Chromium",
+      "APP_DOMAIN":{
+         "description":"Domain of the app, Ex: https://app-name-2d6e581.herokuapp.com",
+         "required":false
+      },
+      "NO_SLEEP":{
+         "description":"After 30 minute, 1=on, 0=off",
+         "value":"1",
          "required":true
       },
       "VNC_PASS":{
@@ -24,14 +28,10 @@
          "value":"1280x720",
          "required":true
       },
-      "NO_SLEEP":{
-         "description":"After 30 minute, 1=on, 0=off",
-         "value":"1",
+      "VNC_TITLE":{
+         "description":"VNC Session Title, w/o spaces.",
+         "value":"Chromium",
          "required":true
-      },
-      "APP_DOMAIN":{
-         "description":"Domain of the app, Ex: https://app-name-2d6e581.herokuapp.com",
-         "required":false
       }
    }
 }
