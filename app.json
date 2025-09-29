@@ -10,8 +10,9 @@
    "stack":"container",
    "env":{
       "APP_DOMAIN":{
-         "description":"Domain of the app, Ex: https://app-name-2d6e581.herokuapp.com",
-         "required":false
+         "description":"Domain of your app after deployed, Ex: https://full-heroku-subdomain.herokuapp.com",
+         "value":"https://full-heroku-subdomain.herokuapp.com",
+         "required":true
       },
       "NO_SLEEP":{
          "description":"After 30 minute app, [ 1=on / 0=off ]",
