@@ -9,6 +9,10 @@
    ],
    "stack":"container",
    "env":{
+      "APP_NAME":{
+         "description":"Name of the app, same as mentioned above.",
+         "required":true
+      },
       "VNC_TITLE":{
          "description":"VNC Session Title, w/o spaces.",
          "value":"Chromium",
