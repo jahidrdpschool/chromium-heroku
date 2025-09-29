@@ -14,7 +14,7 @@
          "required":false
       },
       "NO_SLEEP":{
-         "description":"After 30 minute, 1=on, 0=off",
+         "description":"After 30 minute app, [ 1=on / 0=off ]",
          "value":"1",
          "required":true
       },
