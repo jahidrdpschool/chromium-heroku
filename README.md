@@ -14,5 +14,5 @@ docker run --name chrome-novnc -e PORT=9870 -p 9870:8080 -e VNC_PASS samplepass 
 |    VNC_PASS    |               VNC Password (Default: samplepass)               |
 |    VNC_TITLE   |              VNC Session Title (Default: Chromium)             |
 | VNC_RESOLUTION |               VNC Resolution (Default: 1280x720)               |
-|    APP_DOMAIN  |               Domain of the app (Heroku specific)              |
 |    NO_SLEEP    | Prevent app from sleeping (Heroku specific, default: disabled) |
+|    APP_DOMAIN  |               Domain of the app (Heroku specific)              |
