@@ -18,5 +18,6 @@
 
 <a href="https://github.com/vital987/chrome-novnc">Main Repo</a>
 
+Last Version :- https://commondatastorage.googleapis.com/chromium-browser-snapshots/Linux_x64/LAST_CHANGE
 
 Find Buid Version :- https://commondatastorage.googleapis.com/chromium-browser-snapshots/index.html?prefix=Linux_x64/
